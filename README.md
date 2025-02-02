@@ -6,6 +6,10 @@ This project analyzes word frequencies in BC Legislative documents using Stanfor
 ### Python Libraries
 Install the following Python libraries using pip:
 ```bash
+# For accessWebsite.py
+pip install selenium
+
+# For word-count.py
 pip install easyocr        # For OCR text extraction from PDFs
 pip install PyMuPDF        # For PDF processing
 pip install pandas         # For data manipulation
